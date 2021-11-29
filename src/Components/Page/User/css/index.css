@@ -1,0 +1,25 @@
+.User {
+  margin-left: 200px;
+  min-width: 300px; }
+  .User h2 {
+    margin-bottom: 30px; }
+  .User-block {
+    display: flex; }
+    .User-block_left img {
+      width: 300px;
+      height: 300px; }
+    .User-block_right {
+      margin-left: 20px; }
+      .User-block_right p {
+        white-space: nowrap; }
+  .User-text {
+    margin-bottom: 20px; }
+  .User-search input {
+    margin-bottom: 20px; }
+  .User-search_box {
+    border: 2px solid black;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,37 @@
+.User {
+  margin-left: 200px;
+  min-width: 300px;
+  h2 {
+    margin-bottom: 30px;
+  }
+  &-block {
+    display: flex;
+    &_left {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+    }
+    &_right {
+      margin-left: 20px;
+      p {
+       white-space: nowrap;
+      }
+    }
+  }
+  &-text {
+    margin-bottom: 20px;
+  }
+  &-search {
+
+    input {
+      margin-bottom: 20px;
+    }
+    &_box {
+      border: 2px solid black;
+      justify-content: space-between;
+      display: flex;
+      padding: 10px;
+    }
+  }
+}

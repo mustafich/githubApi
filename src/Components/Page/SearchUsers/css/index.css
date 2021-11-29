@@ -1,0 +1,26 @@
+.SearchUsers {
+  max-width: 400px;
+  min-width: 400px; }
+  .SearchUsers-block_search {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .SearchUsers-block_search input {
+      width: 80%; }
+  .SearchUsers-block_box {
+    border: 1px solid gray;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%; }
+    .SearchUsers-block_box img {
+      margin: 5px;
+      width: 50px;
+      height: 50px; }
+    .SearchUsers-block_box p {
+      margin-left: 40px; }
+    .SearchUsers-block_box span {
+      margin-left: auto;
+      padding-right: 40px; }
+
+/*# sourceMappingURL=index.css.map */
